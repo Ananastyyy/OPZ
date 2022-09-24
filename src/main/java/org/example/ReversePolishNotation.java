@@ -61,7 +61,7 @@ public class ReversePolishNotation {
         if (exp.size() >= 2) {
             throw new Exception("Wrong line!");
         }
-        return Double.parseDouble(String.valueOf(exp.pop()));
+        return exp.pop();
     }
 
     public static void main(String[] args) throws Exception {
